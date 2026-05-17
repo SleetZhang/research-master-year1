@@ -1,0 +1,17 @@
+# Claude Code 本地配置和会话历史
+.claude/
+
+# Obsidian 缓存（如果你后续用 Obsidian 打开会自动生成）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+~$*
