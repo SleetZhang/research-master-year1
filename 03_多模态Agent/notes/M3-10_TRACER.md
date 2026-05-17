@@ -1,0 +1,28 @@
+---
+title: "TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents"
+authors: "Bihui Yu et al."
+venue: "arXiv 2026"
+year: 2026
+arxiv_id: "2605.09934"
+reading_depth: 粗读
+status: 未读
+tags: [#多模态/Agent/工具调用, #多模态/Agent/溯源]
+prerequisites: [M3-01_MLLM-Tool]
+---
+
+# 核心贡献（3 句话）
+
+1. 
+2. 
+3. 
+
+
+# 与主线的关系
+
+> 这篇文章对我主攻的多模态后训练方向有什么参考价值？
+
+
+# 是否值得回头精读
+
+- [ ] 是（原因：）
+- [ ] 否
