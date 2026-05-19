@@ -1,8 +1,8 @@
 ---
 title: "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search"
 authors: "Yao et al."
-venue: NeurIPS
-year: 2024
+venue: "NeurIPS 2025"
+year: 2025
 arxiv_id: "2412.18319"
 reading_depth: 粗读
 status: 待读

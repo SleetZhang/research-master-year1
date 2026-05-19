@@ -4,7 +4,8 @@ authors: "Ziyu Liu, Zeyi Sun, Yuhang Zang, Wei Li, Bo Zhang, Xiaoyi Dong, Yuanha
 venue: "ICCV 2025"
 year: 2025
 arxiv_id: "2503.01785"
-reading_depth: 精读
+reading_depth: 半精读
+estimated_hours: 6
 status: 未读
 tags:
   - "#多模态/推理/RL强化学习"
@@ -13,6 +14,14 @@ tags:
 prerequisites:
   - "[[M2-11]]"
 ---
+
+## 阅读重点（半精读范围）
+
+> 本文实验载体（细粒度分类、目标检测、OVD）属于传统 CV 任务，不是研究重点。只需吸收方法贡献，跳过实验细节。
+
+- ✅ **Section 3 Method**：GRPO 在视觉感知任务的应用、VPO（视觉可验证奖励）设计（IoU、精确匹配）、训练流程
+- ✅ **Ablation 结论**：100 样本 RL vs 500 样本 SFT 的数据效率对比（核心 takeaway）
+- ❌ **跳过**：细粒度分类（CUB-200、Stanford Cars）/ 目标检测 / OVD 的具体实验数字和消融细节
 
 ## 核心问题
 

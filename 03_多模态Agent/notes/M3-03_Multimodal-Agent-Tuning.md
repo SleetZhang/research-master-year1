@@ -1,8 +1,8 @@
 ---
 title: "Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage"
 authors: "Zhi Gao, Bofei Zhang, Pengxiang Li, Xiaojian Ma, Tao Yuan, Yuwei Wu, Yunde Jia, Song-Chun Zhu, Qing Li"
-venue: "arXiv 2024"
-year: 2024
+venue: "ICLR 2025"
+year: 2025
 arxiv_id: "2412.15606"
 reading_depth: 粗读
 status: 未读

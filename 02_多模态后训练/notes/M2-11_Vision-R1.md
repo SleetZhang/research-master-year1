@@ -1,7 +1,7 @@
 ---
 title: "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models"
 authors: "Wenyi Hong, Weihan Wang, Qingsong Lv, Ji Qi, Yan Wang, Zheng Zhang, Ji Qi, Shuai Bi, Lei Zhao, Xu Zhang, Wei Xu, Wendi Zheng, Yuxiao Dong, Jie Tang"
-venue: "arXiv 2025"
+venue: "ICLR 2026"
 year: 2025
 arxiv_id: "2503.06749"
 reading_depth: 精读

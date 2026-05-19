@@ -12,7 +12,7 @@
 |------|-----------|------|------|---------|
 | M3-01 | Large Multimodal Agents Survey | 粗读 | 2.5h | Agent 全景地图，感知/规划/记忆/工具/执行框架 |
 | M3-02 | MLLM-Tool | 粗读 | 2.5h | 多模态工具调用基础框架，ToolMMBench |
-| M3-03 | Multi-modal Agent Tuning | 粗读 | 2.5h | 自动生成工具调用数据 + SFT 路线 |
+| M3-03 | Multi-modal Agent Tuning (ICLR 2025) | 粗读 | 2.5h | 自动生成工具调用数据 + SFT 路线 |
 | M3-04 | Visual-ARFT | 粗读 | 2.5h | GRPO 赋能 Agent，工具调用的 RL 路线 |
 | M3-05 | MemVerse | 粗读 | 2.5h | 多模态双层记忆，层次知识图谱 |
 | M3-06 | VisRAG | 粗读 | 2.5h | 视觉 RAG，文档图像直接检索生成，ICLR 2025 |

@@ -4,7 +4,7 @@ authors: "Zhang et al. (Kuaishou)"
 venue: arXiv
 year: 2025
 arxiv_id: "2502.10391"
-reading_depth: 粗读
+reading_depth: 精读
 status: 待读
 tags:
   - 多模态/后训练/RLHF
@@ -13,7 +13,7 @@ tags:
 prerequisites:
   - "[[M2-01_LLaVA-RLHF]]"
   - "[[M0-02_InstructGPT]]"
-estimated_hours: 2.5
+estimated_hours: 9
 ---
 
 # MM-RLHF 粗读笔记

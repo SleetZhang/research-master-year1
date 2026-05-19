@@ -8,16 +8,22 @@
 
 ## 子主题与论文清单
 
+### 子方向 F：SFT 与视觉指令数据
+
+| 编号 | 标题（缩写）| 深度 | 时间 | 核心贡献 |
+|------|-----------|------|------|---------|
+| M2-25 | MMInstruct | 粗读 | 2.5h | 973K 条 24 领域多模态指令，半自动生成流程，SFT 数据多样性对泛化的影响 |
+
 ### 子方向 A：偏好对齐（RLHF / DPO / RLAIF）
 
 | 编号 | 标题（缩写）| 深度 | 时间 | 核心贡献 |
 |------|-----------|------|------|---------|
-| M2-01 | LLaVA-RLHF | 精读 | 9h | 多模态 RLHF 开山，Factually Augmented 奖励模型 |
+| M2-01 | LLaVA-RLHF | 精读 | 12h | 多模态 RLHF 开山，Factually Augmented 奖励模型 |
 | M2-02 | RLHF-V | 精读 | 9h | Dense human feedback + DPO，1.4K 数据减少 34.8% 幻觉 |
 | M2-03 | Silkie/VLFeedback | 精读 | 9h | AI feedback 规模化，GPT-4V 评分构建 82K 偏好数据集 |
-| M2-04 | mDPO | 精读 | 9h | 发现并解决多模态 DPO 的 unconditional preference 问题 |
-| M2-05 | RLAIF-V | 精读 | 9h | 分治法 AI 自我对齐，超越 GPT-4V 可信度 |
-| M2-06 | Calibrated Self-Rewarding | 精读 | 9h | 视觉校准的自我奖励迭代，NeurIPS 2024 |
+| M2-04 | mDPO | 精读 | 12h | 发现并解决多模态 DPO 的 unconditional preference 问题 |
+| M2-05 | RLAIF-V | 精读 | 12h | 分治法 AI 自我对齐，超越 GPT-4V 可信度 |
+| M2-06 | Calibrated Self-Rewarding | 精读 | 12h | 视觉校准的自我奖励迭代，NeurIPS 2024 |
 
 ### 子方向 B：奖励模型
 
@@ -33,9 +39,9 @@
 | M2-08 | Multimodal CoT | 粗读 | 2.5h | 多模态 CoT 奠基，两阶段推理框架 |
 | M2-09 | LLaVA-CoT | 精读 | 9h | 四阶段结构化推理 + SWIRES 搜索，ICCV 2025 |
 | M2-10 | AtomThink | 精读 | 9h | 原子步骤推理 + PRM，多模态数学推理突破 |
-| M2-11 | Vision-R1 | 精读 | 9h | GRPO + 冷启动，首个多模态 R1 风格 RL |
-| M2-12 | Visual-RFT | 精读 | 9h | GRPO + 视觉可验证奖励，数据高效 RL 微调 |
-| M2-13 | VisualPRM | 精读 | 9h | 400K 多模态过程监督数据 + BoN 测试时计算 |
+| M2-11 | Vision-R1 | 精读 | 12h | GRPO + 冷启动，首个多模态 R1 风格 RL |
+| M2-12 | Visual-RFT | 半精读 | 6h | GRPO + 视觉可验证奖励，数据高效 RL 微调（仅读方法 + 关键消融，跳过 CV 实验细节）|
+| M2-13 | VisualPRM | 精读 | 12h | 400K 多模态过程监督数据 + BoN 测试时计算 |
 | M2-14 | R1-OneVision | 粗读 | 2.5h | 跨模态形式化推理泛化，ICCV 2025 |
 
 ### 子方向 D：幻觉与可信性
@@ -63,10 +69,10 @@
 
 | 编号 | 标题（缩写）| 深度 | 时间 | 核心贡献 |
 |------|-----------|------|------|---------|
-| M2-22 | MM-RLHF | 粗读 | 2.5h | 120K 细粒度偏好数据 + Critique-based RM，2025年最系统的多模态 RLHF |
+| M2-22 | MM-RLHF | 精读 | 9h | 120K 细粒度偏好数据 + Critique-based RM，2025年最系统的多模态 RLHF |
 | M2-24 | Mulberry | 粗读 | 2.5h | 集体 MCTS 构建推理树数据，o1 风格推理+反思，NeurIPS 2025 Spotlight |
 
-**合计：精读 12 篇（129h）+ 粗读 12 篇（30h）= 模块约 159h**（含笔记整理）
+**合计：精读 12 篇（6×9h+6×12h=126h）+ 半精读 1 篇（6h）+ 粗读 12 篇（30h）= 模块约 162h**（含笔记整理）
 
 ---
 
@@ -124,7 +130,8 @@ M2-24 Mulberry（MCTS推理树，读完M2-10/11后可读）
 
 按以下顺序（尊重依赖 + 难度梯度）：
 
-**Week 2 后半**：M2-01 → M2-02（RLHF基础）
+**Week 3 末**：M2-25 MMInstruct（粗读，SFT数据认知，偏好对齐的前置背景）
+**Week 3-4**：M2-01 → M2-02（RLHF基础）
 **Week 3**：M2-03 → M2-04 → M2-05 → M2-06（DPO/RLAIF 主线）
 **Week 4**：M2-07（粗）→ M2-08（粗）→ M2-09 → M2-10 → M2-11（推理增强）
 **Week 5**：M2-12 → M2-13（RFT/PRM）→ M2-14（粗）→ M2-24 Mulberry（粗）
